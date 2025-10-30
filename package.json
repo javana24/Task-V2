@@ -1,5 +1,5 @@
 {
-  "name": "task-v-2",
+  "name": "Task-V2",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -17,7 +17,9 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.29.0",
     "@strapi/plugin-users-permissions": "5.29.0",
+    "@strapi/provider-upload-cloudinary": "^5.29.0",
     "@strapi/strapi": "5.29.0",
+    "cloudinary": "^2.8.0",
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -35,7 +37,8 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "a4a34e65-70a6-40eb-a974-37372620449b",
-    "installId": "42657b428b800ab75b542a015bb92de1f9cc87545bfd6ea9fd281aff3ddcf88b"
+    "uuid": "933b7a00-ccde-4587-8bc3-6db6ca109bd7",
+    "installId": "501bf90a9150bb35324668d8f6a8415f3aacd73b5ad3ab0dcc259ddabec78c0f"
   }
 }
+
