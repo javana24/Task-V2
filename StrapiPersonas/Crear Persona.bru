@@ -1,0 +1,25 @@
+meta {
+  name: Crear Persona
+  type: http
+  seq: 8
+}
+
+post {
+  url: http://localhost:1337/api/personas
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      "data": {
+          "name": "Antonio Salces",
+          "email": "antoniito@cordobes.com"
+      }
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
